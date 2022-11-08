@@ -1,0 +1,2 @@
+Hello world has been inserted with vim. 
+This is another line. This is another line. 

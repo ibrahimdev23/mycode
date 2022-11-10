@@ -34,11 +34,11 @@ def startGame():
       print(bender_types[2]["F"])
       list_len -= 1
       break
-    elif place == "S" and fav_pet == "E" and fav_avatar == "Y" and fav_item == "K":
+    elif place == "S" and fav_pet == "E" and fav_avatar == "S" and fav_item == "K":
       print(bender_types[3]["W"])
       list_len -= 1
       break
-    elif place == "K" and fav_pet == "W" and fav_avatar == "U" and fav_item == "K":
+    elif place == "K" and fav_pet == "W" and fav_avatar == "W" and fav_item == "K":
       print(bender_types[4]["L"])
       list_len -= 1
       break
@@ -51,14 +51,14 @@ if start == 'y':
   place = input(
     'pick a place: [k]yoshi Island, [A]ir Nomand Temple, [B]a Sing Se, [S]pirit World '
   ).upper(
-  )  #the input is converted to Uppercase to match the letters inside of the main()
+  )  #the input is converted to Uppercase to match the letters inside of the startGame()
   fav_pet = input(
     "pick a pet: [L]ion turtle, [F]lying bison, [W]inged lemur, [E]lepant koi "
   ).upper()
   fav_avatar = input(
-    "pick a past Avatar: [K]yoshi, [R]oku, [U]ruk, [Y]angcen ").upper()
+    "pick a past Avatar: [K]yoshi, [R]oku, [W]an, [S]zeto ").upper()
   fav_item = input(
-    "Pick a favorite item: [S]okka's boomerang, [I]ro's jasmine tea, [A]ang's staff, [K]atara's necklace "
+    "Pick a favorite item: [S]okka's boomerang, [I]roh's jasmine tea, [A]ang's staff, [K]atara's necklace "
   ).upper()
   # the game function runs if the user picks 'y'
   startGame()
